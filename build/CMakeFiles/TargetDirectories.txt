@@ -1,0 +1,10 @@
+/home/tubbadu/code/Kirigami/tubbadu-logout-greeter/build/CMakeFiles/uninstall.dir
+/home/tubbadu/code/Kirigami/tubbadu-logout-greeter/build/CMakeFiles/fetch-translations.dir
+/home/tubbadu/code/Kirigami/tubbadu-logout-greeter/build/CMakeFiles/test.dir
+/home/tubbadu/code/Kirigami/tubbadu-logout-greeter/build/CMakeFiles/edit_cache.dir
+/home/tubbadu/code/Kirigami/tubbadu-logout-greeter/build/CMakeFiles/rebuild_cache.dir
+/home/tubbadu/code/Kirigami/tubbadu-logout-greeter/build/src/CMakeFiles/tubbadu-logout-greeter.dir
+/home/tubbadu/code/Kirigami/tubbadu-logout-greeter/build/src/CMakeFiles/test.dir
+/home/tubbadu/code/Kirigami/tubbadu-logout-greeter/build/src/CMakeFiles/edit_cache.dir
+/home/tubbadu/code/Kirigami/tubbadu-logout-greeter/build/src/CMakeFiles/rebuild_cache.dir
+/home/tubbadu/code/Kirigami/tubbadu-logout-greeter/build/src/CMakeFiles/tubbadu-logout-greeter_autogen.dir
