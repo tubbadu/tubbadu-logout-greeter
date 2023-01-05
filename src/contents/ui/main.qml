@@ -183,7 +183,7 @@ Kirigami.ApplicationWindow {
 			}
 
 			onClicked: {
-				launcher.launch("systemctl poweroff")
+				launcher.launch("systemctl poweroff --no-wall")
 				Qt.quit()
 			}
 		}

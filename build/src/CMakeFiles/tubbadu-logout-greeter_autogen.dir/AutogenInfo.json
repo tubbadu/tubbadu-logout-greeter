@@ -29,7 +29,6 @@
 		"QT_CORE_LIB",
 		"QT_GUI_LIB",
 		"QT_NETWORK_LIB",
-		"QT_NO_DEBUG",
 		"QT_QMLMODELS_LIB",
 		"QT_QML_LIB",
 		"QT_QUICKCONTROLS2_LIB",
@@ -43,10 +42,6 @@
 		[
 			"Q_PLUGIN_METADATA",
 			"[\n][ \t]*Q_PLUGIN_METADATA[ \t]*\\([^\\)]*FILE[ \t]*\"([^\"]+)\""
-		],
-		[
-			"K_PLUGIN_CLASS",
-			"[\n^][ \t]*K_PLUGIN_CLASS[ \t\n]*\\([ \t\n]*\"([^\"]+)\""
 		],
 		[
 			"K_PLUGIN_FACTORY_WITH_JSON",

@@ -56,7 +56,6 @@
 #define __FLT64X_MAX_10_EXP__ 4932
 #define __cpp_if_constexpr 201606L
 #define __LDBL_IS_IEC_60559__ 2
-#define QT_NO_DEBUG 1
 #define __FLT64X_HAS_QUIET_NAN__ 1
 #define __UINT_LEAST8_MAX__ 0xff
 #define __GCC_ATOMIC_BOOL_LOCK_FREE 2
@@ -207,7 +206,7 @@
 #define __DEC128_MAX__ 9.999999999999999999999999999999999E6144DL
 #define __FLT_MANT_DIG__ 24
 #define __LDBL_DECIMAL_DIG__ 21
-#define __VERSION__ "12.2.1 20220819 (Red Hat 12.2.1-1)"
+#define __VERSION__ "12.2.1 20221121 (Red Hat 12.2.1-4)"
 #define __UINT64_C(c) c ## UL
 #define __cpp_unicode_characters 201411L
 #define _STDC_PREDEF_H 1
@@ -247,7 +246,7 @@
 #define __INT_LEAST16_TYPE__ short int
 #define __LDBL_EPSILON__ 1.08420217248550443400745280086994171e-19L
 #define __UINTMAX_C(c) c ## UL
-#define __GNUC_RH_RELEASE__ 1
+#define __GNUC_RH_RELEASE__ 4
 #define __GLIBCXX_BITSIZE_INT_N_0 128
 #define __k8 1
 #define __FLT32X_MIN__ 2.22507385850720138309023271733240406e-308F32x
