@@ -308,6 +308,7 @@ src/CMakeFiles/tubbadu-logout-greeter.dir/main.cpp.o: \
  /usr/include/qt5/QtCore/qflags.h /usr/include/qt5/QtCore/qfuture.h \
  /usr/include/qt5/QtCore/qfutureinterface.h \
  /usr/include/qt5/QtCore/qrunnable.h /usr/include/qt5/QtCore/qmutex.h \
+ /usr/include/qt5/QtCore/qtsan_impl.h \
  /usr/include/qt5/QtCore/qexception.h \
  /usr/include/qt5/QtCore/qresultstore.h /usr/include/c++/12/mutex \
  /usr/include/c++/12/bits/std_mutex.h \

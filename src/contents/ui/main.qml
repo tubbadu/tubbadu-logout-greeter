@@ -8,12 +8,12 @@ import Launcher 1.0
 
 Kirigami.ApplicationWindow {
 	id: root
-	title: i18nc("@title:window", "Hello World")
-	property real alpha : 0.75
-	property real h : 0
-	property real s : 0
-	property real l : 0
-	color: Qt.hsla(h,s,l,alpha)
+	title: i18nc("@title:window", "Logout")
+	property color themeColor: "#1B1E20"
+	property color buttonBackground: Qt.rgba(themeColor.r+0.5, themeColor.g+0.5, themeColor.b+0.5, 0.25)
+	color: Qt.rgba(themeColor.r/2, themeColor.g/2, themeColor.b/2, 0.75)
+	
+	
 	visibility: "FullScreen"
 
 	property int nowFocused: 2
@@ -85,7 +85,7 @@ Kirigami.ApplicationWindow {
 			icon.height: parent.buttonSize
 			icon.width: parent.buttonSize
 			background: Rectangle {
-				color: root.nowFocused == parent.numId || parent.isHovered ? Qt.hsla(1,1,1,0.25) : "transparent"
+				color: root.nowFocused == parent.numId || parent.isHovered ? buttonBackground : "transparent"
 				implicitWidth: parent.width
      			implicitHeight: parent.height
 				radius: height/2
@@ -101,9 +101,8 @@ Kirigami.ApplicationWindow {
 				}
 				onClicked: parent.clicked()
 			}
-			Text{
+			Label{
 				text: i18n("Suspend")
-				color: "white"
 				anchors.top: parent.bottom
 				anchors.horizontalCenter: parent.horizontalCenter
 			}
@@ -122,7 +121,7 @@ Kirigami.ApplicationWindow {
 			icon.height: parent.buttonSize
 			icon.width: parent.buttonSize
 			background: Rectangle {
-				color: root.nowFocused == parent.numId || parent.isHovered ? Qt.hsla(1,1,1,0.25) : "transparent"
+				color: root.nowFocused == parent.numId || parent.isHovered ? buttonBackground : "transparent"
 				implicitWidth: parent.width
      			implicitHeight: parent.height
 				radius: height/2
@@ -138,9 +137,8 @@ Kirigami.ApplicationWindow {
 				}
 				onClicked: parent.clicked()
 			}
-			Text{
+			Label{
 				text: i18n("Reboot")
-				color: "white"
 				anchors.top: parent.bottom
 				anchors.horizontalCenter: parent.horizontalCenter
 			}
@@ -159,7 +157,7 @@ Kirigami.ApplicationWindow {
 			icon.height: parent.buttonSize
 			icon.width: parent.buttonSize
 			background: Rectangle {
-				color: root.nowFocused == parent.numId || parent.isHovered ? Qt.hsla(1,1,1,0.25) : "transparent"
+				color: root.nowFocused == parent.numId || parent.isHovered ? buttonBackground : "transparent"
 				implicitWidth: parent.width
      			implicitHeight: parent.height
 				radius: height/2
@@ -175,9 +173,8 @@ Kirigami.ApplicationWindow {
 				}
 				onClicked: parent.clicked()
 			}
-			Text{
+			Label{
 				text: i18n("Shutdown")
-				color: "white"
 				anchors.top: parent.bottom
 				anchors.horizontalCenter: parent.horizontalCenter
 			}
@@ -196,7 +193,7 @@ Kirigami.ApplicationWindow {
 			icon.height: parent.buttonSize
 			icon.width: parent.buttonSize
 			background: Rectangle {
-				color: root.nowFocused == parent.numId || parent.isHovered ? Qt.hsla(1,1,1,0.25) : "transparent"
+				color: root.nowFocused == parent.numId || parent.isHovered ? buttonBackground : "transparent"
 				implicitWidth: parent.width
      			implicitHeight: parent.height
 				radius: height/2
@@ -212,9 +209,8 @@ Kirigami.ApplicationWindow {
 				}
 				onClicked: parent.clicked()
 			}
-			Text{
+			Label{
 				text: i18n("Logout")
-				color: "white"
 				anchors.top: parent.bottom
 				anchors.horizontalCenter: parent.horizontalCenter
 			}
